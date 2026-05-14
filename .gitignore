@@ -1,29 +1,132 @@
 
-# This file describes files and paths that should not be tracked by Git version control
-# https://git-scm.com/docs/gitignore
+# =============================================================================
+# s&box / Source 2 Engine - Official Patterns (Facepunch)
+# https://github.com/Facepunch/sbox-public
+# =============================================================================
 
-# Auto-generated code editor files
-.vs/*
-.vscode/*
-*.csproj
-obj
-bin
-Properties/*
-code/obj/*
-code/Properties/*
+# Ignore all by default, then whitelist source files
+*
+!*/
 
-# Auto-generated asset related files
-*.generated.*
-*.*_c
-!*.shader_c
-*.los
-*.vpk
-*launchSettings.json
-*.sln
+# Git metadata
+!.gitignore
+!.gitattributes
+!.github/workflows/**
 
-*idea
-/.sbox
-Code/testbed.csproj.user
-Libraries/*/.bin
-*.user
+# Source code files (whitelist)
+!*.sln
+!*.csproj
+!*.cs
+!*.razor
+
+# s&box asset files (whitelist)
+!*.scene
+!*.prefab
+!*.clothing
+!*.sound
+!*.decal
+!*.sndscape
+!*.surface
+!*.vtex
+!*.shader
+!*.fxc
+!*.hlsl
+!*.hlsli
+!*.terrain
+!*.cubemap
+
+# Text/config files (whitelist)
+!*.txt
+!*.md
+!*.ini
+!*.cfg
+!*.json
+!*.css
+!.editorconfig
+!.yaml
+!.yml
+!.sbproj
+
+# Script files
+!*.bat
+!*.sh
+!*.py
+
+# =============================================================================
+# Local/Generated Files to Ignore
+# =============================================================================
+
+# Local config overrides
+*#local.json
+game/config/input/common.json
+
+# Generated code/cache
+*.codegen
+engine/CodeGen.deps.json
+engine/CodeGen.runtimeconfig.json
+.generated
+game/core/shadercache/vulkan/shaders.cache
+engine/Sandbox.Compiling/EmbeddedRefs/*.xml
+game/*.xml
+engine/TestResults/
+
+# Interop files
+/engine/**/Interop.*.cs
+
+# =============================================================================
+# Visual Studio / VS Code
+# =============================================================================
+.vs/
+.vscode/
+.intermediate/
+*.csproj.user
 *.slnx
+launchSettings.json
+obj/
+bin/
+Properties/
+
+# =============================================================================
+# s&box Runtime & Editor Debris
+# =============================================================================
+
+# Per-user s&box editor data
+/.sbox
+**/.sbox/*
+
+# Build artifacts
+game/**/obj/
+game/**/bin/**/*.dll
+game/**/bin/**/*.pdb
+game/**/bin/**/*.xml
+game/**/bin/win64/logs
+
+# Runtime configs & caches
+game/.source2
+game/_toolsettings
+game/config/**/*json.backup
+game/core/cfg/*.vcfg
+game/core/cfg/video.txt
+game/core/cfg/video_tools.txt
+
+# User-generated content (usually not committed)
+game/data/
+game/download/
+game/download_test/
+game/logs/
+game/screenshots/
+game/tools/
+game/aftermath_dumps/
+game/gamecache/
+
+# =============================================================================
+# OS / Editor Junk
+# =============================================================================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.temp
+.idea/
+*.swp
+*.swo
