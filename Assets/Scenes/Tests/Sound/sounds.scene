@@ -993,7 +993,7 @@
           "Scale": 1.09,
           "TextAlignment": "Center",
           "TextScope": {
-            "Text": "coast \uD83D\uDEE5\uFE0F",
+            "Text": "coast \uD83D\uDEE5️",
             "TextColor": "0.45103,0.47149,0.5297,1",
             "FontName": "Poppins",
             "FontSize": 128,
@@ -1093,7 +1093,7 @@
           "ReflectionOverride": false,
           "Reflections": false,
           "Repeat": false,
-          "SoundEvent": "sounds/the_s\u0026box_song.sound",
+          "SoundEvent": "sounds/the_s&box_song.sound",
           "SoundOverride": true,
           "StopOnNew": false,
           "TargetMixer": {
@@ -1151,7 +1151,7 @@
               "Scale": 1.09,
               "TextAlignment": "Center",
               "TextScope": {
-                "Text": "s\u0026box song",
+                "Text": "s&box song",
                 "TextColor": "0.45103,0.47149,0.5297,1",
                 "FontName": "Poppins",
                 "FontSize": 58.11,
@@ -1203,7 +1203,7 @@
           "ReflectionOverride": false,
           "Reflections": false,
           "Repeat": false,
-          "SoundEvent": "sounds/the_s\u0026box_song.sound",
+          "SoundEvent": "sounds/the_s&box_song.sound",
           "SoundOverride": true,
           "StopOnNew": false,
           "TargetMixer": {
@@ -1261,7 +1261,7 @@
               "Scale": 1.09,
               "TextAlignment": "Center",
               "TextScope": {
-                "Text": "s\u0026box song",
+                "Text": "s&box song",
                 "TextColor": "0.45103,0.47149,0.5297,1",
                 "FontName": "Poppins",
                 "FontSize": 58.11,

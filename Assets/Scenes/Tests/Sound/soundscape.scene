@@ -579,7 +579,7 @@
           "Scale": 1.09,
           "TextAlignment": "Center",
           "TextScope": {
-            "Text": "coast \uD83D\uDEE5\uFE0F",
+            "Text": "coast \uD83D\uDEE5️",
             "TextColor": "0.45103,0.47149,0.5297,1",
             "FontName": "Poppins",
             "FontSize": 128,
@@ -727,7 +727,7 @@
           "Scale": 1.09,
           "TextAlignment": "Center",
           "TextScope": {
-            "Text": "Motorway Birds \uD83D\uDD4A\uFE0F",
+            "Text": "Motorway Birds \uD83D\uDD4A️",
             "TextColor": "0.45103,0.47149,0.5297,1",
             "FontName": "Poppins",
             "FontSize": 128,
